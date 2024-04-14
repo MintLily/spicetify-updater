@@ -1,53 +1,89 @@
-**Instructions:**
+<a name="readme-top"></a>
+
+<div align="center">
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![MIT License][license-shield]][license-url]
+
+</div>
 
 
-1. Download the latest release package for your operating system.
-2. Extract the contents to a convenient location.
-3. Run the Spicetify Updater CLI executable to begin the update/download process
-     1. Enjoy the music!
-4. Follow the prompts and enjoy the updated Spicetify experience on Spotify.
-5. Create a desktop shortcut for `spicetify-updater.exe`:
-    1. *Right-click on the executable.*
-    2. *Navigate to "Send To".*
-    3. *Choose "Desktop (create shortcut)".*
-6. Enjoy!  
-# Spicetify Updater CLI
 
----
+<br />
+<div align="center">
+  <a href="https://github.com/MintLily/spicetify-updater">
+    <img src="Resources/icon_compressed.webp" alt="Icon Logo" height="200">
+  </a>
 
-- **Repository Name: spicetify-updater**
-- **Latest Version: v2.0.0**
+  <h3 align="center">SpicetifyUpdater (C#)</h3>
+</div>
 
----
 
-**Description:**
 
-Simplify the process of updating Spicetify, a powerful customization utility for Spotify, with this command-line tool. Enhance your Spotify experience effortlessly. Also can download Spicetify for you!
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
 
----
 
-**Requirements:**
 
-- .NET Core 3.1 or later.
-- Spotify client on your system(see notes).
-- Spotify account.
-- A reason to live. *(optional)*
+<!-- ABOUT THE PROJECT -->
+## About The Project
 
----
+This is a simple Spicetify CLI updater program, originally based on [BaranDev](https://github.com/BaranDev)'s Python [spicetify-updater](https://github.com/BaranDev/spicetify-updater) project.
 
-**Summary:**
+### Built With
 
-The Spicetify Updater CLI provides a convenient way to update Spicetify and its associated components directly from the command line. Save time and effort by automating the update process, ensuring you have access to the latest features and customization options for Spotify.
+[![Rider][Rider]][RiderUrl] [![DotNet][CSharp]][DotNetUrl] [![Sublime Text][Sublime]][SublimeUrl]<br>
+[![Pastel][Pastel]][PastelUrl]
 
----
-**Notes:**
-- Please be advised that this updater may encounter difficulties updating Spicetify if you are using the Microsoft Store version of Spotify rather than the desktop version.
-- **[Click Here to download Spotify.](https://www.spotify.com/us/download/other/)**
-  
-          https://www.spotify.com/us/download/other/
----
+<!-- LICENSE -->
+## License
 
-**Credits:**
+Distributed under the MIT License. See [`LICENSE`][license-url] for more information.
 
-- ASCII Art: [https://user.xmission.com/~emailbox](https://user.xmission.com/~emailbox)
-- Music: Pokemon Emerald - Littleroot Town *(played by me!)*
+<!-- ACKNOWLEDGMENTS -->
+## Acknowledgments
+
+* Othneil Drew - for the [README Style](https://github.com/othneildrew/Best-README-Template)
+* [BaranDev](https://github.com/BaranDev) - Creation of the orginal project, before the Python conversion
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[contributors-shield]: https://img.shields.io/github/contributors/MintLily/spicetify-updater.svg?style=for-the-badge
+[contributors-url]: https://github.com/MintLily/spicetify-updater/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/MintLily/spicetify-updater.svg?style=for-the-badge
+[forks-url]: https://github.com/MintLily/spicetify-updater/network/members
+[stars-shield]: https://img.shields.io/github/stars/MintLily/spicetify-updater.svg?style=for-the-badge
+[stars-url]: https://github.com/MintLily/spicetify-updater/stargazers
+[issues-shield]: https://img.shields.io/github/issues/MintLily/spicetify-updater.svg?style=for-the-badge
+[issues-url]: https://github.com/MintLily/spicetify-updater/issues
+[license-shield]: https://img.shields.io/github/license/MintLily/spicetify-updater.svg?style=for-the-badge
+[license-url]: https://github.com/MintLily/spicetify-updater/blob/main/LICENSE
+[releases-url]: https://github.com/MintLily/spicetify-updater/releases
+
+<!-- NuGet Packages -->
+[Pastel]: https://img.shields.io/badge/Pastel-00877A?style=for-the-badge&logo=nuget&logoColor=white
+[PastelUrl]: https://www.nuget.org/packages/Pastel
+
+[Rider]: https://img.shields.io/badge/Rider-000000?style=for-the-badge&logo=rider&logoColor=white
+[RiderUrl]: https://jb.gg/OpenSourceSupport
+[CSharp]: https://img.shields.io/badge/DotNet%208-512BD4?style=for-the-badge&logo=csharp&logoColor=white
+[DotNetUrl]: https://dotnet.microsoft.com/en-us/download/dotnet/8.0
+[Sublime]: https://img.shields.io/badge/Sublime%20Text-FF9800?style=for-the-badge&logo=sublimetext&logoColor=white
+[SublimeUrl]: https://www.sublimetext.com/
